@@ -1,0 +1,34 @@
+# ──────────────────────────────────────────────────────────────────
+#  FakeScope AI — Requirements
+#  Install: pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────
+
+# Web Application
+streamlit>=1.40.0
+
+# Machine Learning
+scikit-learn>=1.7.0
+joblib>=1.4.0
+
+# Natural Language Processing
+nltk>=3.9.0
+
+# Numerical Computing
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Visualisation
+matplotlib>=3.9.0
+wordcloud>=1.9.3
+plotly>=5.24.0
+
+# Image Processing (required by wordcloud)
+Pillow>=10.4.0
+
+# ──────────────────────────────────────────────────────────────────
+#  NOTE: The model .pkl files (bow_model.pkl, tfidf_model.pkl) were
+#  created with scikit-learn 1.7.x.  Using a different major version
+#  may produce a harmless InconsistentVersionWarning — predictions
+#  will still work correctly.  Re-run NLP_Project.ipynb to regenerate
+#  the models with your installed version if needed.
+# ──────────────────────────────────────────────────────────────────
